@@ -1,0 +1,12 @@
+__pycache__/
+dist/
+poetry_cache/
+.env
+*.env
+*.mp4
+*.avi
+*.mkv
+*.pyc
+*.pyo
+venv/
+.venv/

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "stave"
+version = "0.1.0"
+description = "ShadowTEAM Automated Video Encoder"
+authors = ["DJ Stomp <85457381+DJStompZone@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+argparse = "^1.4.0"
+tqdm = "^4.66.5"
+mutagen = "^1.47.0"
+redis = "^5.1.1"
+watchdog = "^5.0.3"
+ffmpeg-python = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
