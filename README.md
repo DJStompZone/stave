@@ -1,5 +1,6 @@
 
 # STAVE - ShadowTEAM Automated Video Encoder
+![17295527154668899318283088850355](https://github.com/user-attachments/assets/5773bd10-ece6-4983-a7dd-79bd14143e2b)
 
 **STAVE** is a lightweight, automated video encoding tool designed to handle incoming video files, encode them using **FFmpeg** with **H.265 (NVENC)** for GPU acceleration and **Opus** for audio, and organize the output efficiently. STAVE monitors directories for new video files, processes them in a reliable queue, and provides real-time feedback on progress and queue status.
 
